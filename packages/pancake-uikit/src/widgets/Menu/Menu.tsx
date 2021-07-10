@@ -61,20 +61,7 @@ const MobileOnlyOverlay = styled(Overlay)`
   }
 `;
 
-const Menu: React.FC<NavProps> = ({
-  account,
-  login,
-  logout,
-  isDark,
-  toggleTheme,
-  langs,
-  setLang,
-  currentLang,
-  cakePriceUsd,
-  links,
-  profile,
-  children,
-}) => {
+const Menu: React.FC<NavProps> = ({ account, login, logout, isDark, toggleTheme, links, profile, children }) => {
   const { isXl } = useMatchBreakpoints();
   const isMobile = isXl === false;
   const [isPushed, setIsPushed] = useState(!isMobile);
@@ -134,10 +121,6 @@ const Menu: React.FC<NavProps> = ({
           showMenu={showMenu}
           isDark={isDark}
           toggleTheme={toggleTheme}
-          langs={langs}
-          setLang={setLang}
-          currentLang={currentLang}
-          cakePriceUsd={cakePriceUsd}
           pushNav={setIsPushed}
           links={links}
         />

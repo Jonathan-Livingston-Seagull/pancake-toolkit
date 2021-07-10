@@ -8,7 +8,7 @@ import pancakeswapTop100 from "./tokens/pancakeswap-top-100.json";
 const lists = {
   "pancakeswap-default": pancakeswapDefault,
   "pancakeswap-extended": pancakeswapExtended,
-  "pancakeswap-top-100": pancakeswapTop100
+  "pancakeswap-top-100": pancakeswapTop100,
 };
 
 const checksumAddresses = (listName: string): void => {

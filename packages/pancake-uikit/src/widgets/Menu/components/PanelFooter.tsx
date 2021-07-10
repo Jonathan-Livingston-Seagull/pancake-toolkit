@@ -34,16 +34,7 @@ const SocialEntry = styled.div`
   padding: 0 16px;
 `;
 
-const PanelFooter: React.FC<Props> = ({
-  isPushed,
-  pushNav,
-  toggleTheme,
-  isDark,
-  cakePriceUsd,
-  currentLang,
-  langs,
-  setLang,
-}) => {
+const PanelFooter: React.FC<Props> = ({ isPushed, pushNav, toggleTheme, isDark }) => {
   if (!isPushed) {
     return (
       <Container>
@@ -56,13 +47,8 @@ const PanelFooter: React.FC<Props> = ({
 
   return (
     <Container>
-      <SocialEntry>
-        <CakePrice cakePriceUsd={cakePriceUsd} />
-        <SocialLinks />
-      </SocialEntry>
       <SettingsEntry>
         <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
-        <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
       </SettingsEntry>
     </Container>
   );

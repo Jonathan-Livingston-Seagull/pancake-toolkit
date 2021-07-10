@@ -22,7 +22,7 @@ export const links = [
     href: "/",
   },
   {
-    label: "Trade",
+    label: "Binary Option",
     icon: "TradeIcon",
     items: [
       {
@@ -121,19 +121,19 @@ export const links = [
     items: [
       {
         label: "Voting",
-        href: "https://voting.pancakeswap.finance",
+        href: "https://voting.lotus.finance",
       },
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/Lotus-finance",
       },
       {
         label: "Docs",
-        href: "https://docs.pancakeswap.finance",
+        href: "https://docs.lotus.finance",
       },
       {
         label: "Blog",
-        href: "https://pancakeswap.medium.com",
+        href: "https://lotus.medium.com",
       },
     ],
   },
@@ -201,7 +201,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/pancakeswap",
+    href: "https://twitter.com/lotus",
   },
 ];
 

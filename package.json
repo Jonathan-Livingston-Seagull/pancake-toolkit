@@ -1,7 +1,7 @@
 {
   "name": "pancake-toolkit",
   "version": "1.0.0",
-  "description": "Pancake frontend packages",
+  "description": "pancake frontend packages",
   "private": true,
   "workspaces": [
     "packages/*"
